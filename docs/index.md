@@ -1,7 +1,7 @@
 The project is to automatically identify if customers happy or not from their reviews.
-Prioritize those "positive" reviews
 
-There are two methods in industry:  statistics or machine learning. The former one combines different sentimental weights of tokens to get one final score, which means we should have a comprehensive dictionary along with reasonable token weights (one time consuming task indeed)… The method here is using BiGRU+Attention, datasets came from Kaggle: Hotel Reviews.
+The method here is using BiGRU+Attention, data came from Kaggle Datasets: Hotel Reviews.
+
 ### Steps:
 
 ##### Text preprocessing [word2vec]
